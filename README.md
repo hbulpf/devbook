@@ -5,8 +5,8 @@
 
  类别 | - | - | - | - | - 
 --- | --- | --- | --- | --- | --- 
-Java | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
-Spring | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | 
+Java | [Java 基础操练](https://github.com/hbulpf/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
+Spring | [Spring Demo](https://github.com/hbulpf/spring01-demo) | 
 MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo) | [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 Android | [AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 

@@ -29,3 +29,41 @@
 [credential]
     helper = store
 ```
+
+# github 网页加载慢问题
+
+windows 进入 `C:\Windows\System32\drivers\etc` 目录， 在 `hosts` 最后加入以下解析内容。
+
+```
+# GitHub Start 
+# 13.250.177.223	github.com
+#解决git clone 速度慢的问题
+192.30.253.112 github.com
+151.101.185.194 github.global.ssl.fastly.net
+#解决浏览器下载master-zip包的问题
+192.30.253.120 codeload.github.com
+192.30.253.119    gist.github.com
+151.101.184.133    assets-cdn.github.com
+151.101.184.133    raw.githubusercontent.com
+151.101.184.133    gist.githubusercontent.com
+151.101.184.133    cloud.githubusercontent.com
+151.101.184.133    camo.githubusercontent.com
+151.101.184.133    avatars0.githubusercontent.com
+151.101.184.133    avatars1.githubusercontent.com
+151.101.184.133    avatars2.githubusercontent.com
+151.101.184.133    avatars3.githubusercontent.com
+151.101.184.133    avatars4.githubusercontent.com
+151.101.184.133    avatars5.githubusercontent.com
+151.101.184.133    avatars6.githubusercontent.com
+151.101.184.133    avatars7.githubusercontent.com
+151.101.184.133    avatars8.githubusercontent.com
+# GitHub End
+```
+
+# 常见的 基于 git 的网站
+
+网站 | 国家 |
+--- | --- |
+[github](https://github.com) | 美国
+[gitlab](https://gitlab.com)  | 美国
+[gitee](https://gitee.com/)  | 中国大陆
