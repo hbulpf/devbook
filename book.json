@@ -21,7 +21,7 @@
         "github",
         "github-buttons",
         "donate",
-		"katex",
+		"mathjax@^1.0.1",
         "sharing-plus",
         "anchor-navigation-ex",
         "favicon",
