@@ -26,7 +26,6 @@
         "favicon",
         "toggle-chapters", 
         "theme-comscore",
-        "mathjax",
         "-lunr", "-search", "search-plus",
         "sitemap-general"
     ],
@@ -87,9 +86,6 @@
                 "120x120": "./source/images/apple-touch-icon.jpg",
                 "180x180": "./source/images/apple-touch-icon.jpg"
             }
-        },
-        "mathjax":{
-            "forceSVG": true
         }
     }
 }
