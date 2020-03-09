@@ -1,7 +1,7 @@
 {
-    "title": "dev manual",
-    "author": "RunAtWorld",
-    "description": "it is for learning.",
+    "title": "devbook",
+    "author": "HeCloud",
+    "description": "it is devbook.",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "styles": {
@@ -10,10 +10,8 @@
     "structure": {
         "readme": "README.md"
     },
-    "links": {
-        "sidebar": {
-            "开发手册": "https://runatworld.gitbook.io"
-        }
+    "theme-default": {
+        "showLevel": true
     },
     "plugins": [
         "-sharing",
@@ -25,21 +23,29 @@
         "donate",
         "sharing-plus",
         "anchor-navigation-ex",
-        "favicon"
+        "favicon",
+        "toggle-chapters", 
+        "theme-comscore",
+        "mathjax",
+        "-lunr", "-search", "search-plus",
+        "sitemap-general"
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/RunAtWorld"
+            "url": "https://github.com/hbulpf/devbook"
         },
         "github-buttons": {
             "buttons": [{
-                "user": "RunAtWorld",
-                "repo": "runatworld.github.io",
+                "user": "hbulpf",
+                "repo": "devbook",
                 "type": "star",
                 "size": "small",
                 "count": true
                 }
             ]
+        },
+        "sitemap-general": {
+            "prefix": "http://hecloud.hnbdata.cn/devbook"
         },
         "donate": {
             "alipay": "./source/images/donate.png",
@@ -81,6 +87,9 @@
                 "120x120": "./source/images/apple-touch-icon.jpg",
                 "180x180": "./source/images/apple-touch-icon.jpg"
             }
+        },
+        "mathjax":{
+            "forceSVG": true
         }
     }
 }
