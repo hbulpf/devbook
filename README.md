@@ -3,7 +3,7 @@
 # 1. 基础练习
 #### 1.1 Java 
 
- 类别 | - | - | - | - | - 
+ 类别 | 列1 | 列2 | 列3 | 列4 | 列5 
 --- | --- | --- | --- | --- | --- 
 Java | [Java 基础操练](https://github.com/hbulpf/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
 Spring | [Spring Demo](https://github.com/hbulpf/spring01-demo) | 
@@ -12,7 +12,7 @@ Android | [AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 
 #### 1.2 GO
 
-类别 |  -  | -   | -   | -  
+类别 | 列1 | 列2 | 列3 | 列4 
 --- | --- | --- | --- | ---
 GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) | [Go Web](https://github.com/RunAtWorld/build-web-application-with-golang)
 函数库 |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
@@ -21,13 +21,13 @@ GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTrain
 
 #### 1.3 Python
 
-类别 | - 
+类别 | 列1
 --- | --- 
 Python | [Python 100 Days](https://github.com/RunAtWorld/Python-100-Days) | [Python常用Sample](https://github.com/RunAtWorld/Python) |
 项目 | [python-spider](https://github.com/RunAtWorld/python-spider) | [知乎爬虫](https://github.com/RunAtWorld/Zhihu_bigdata)
 
 #### 1.4 算法
- 类别 | - | -
+ 类别 | 列1 | 列2 
 --- | ---  | --
 算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) | [javascript-algorithms](https://github.com/RunAtWorld/javascript-algorithms)
 leetcode | [leetcode](https://github.com/RunAtWorld/leetcode) | [java-leetcode](https://github.com/RunAtWorld/awesome-java-leetcode) | [leetbook](https://github.com/RunAtWorld/leetbook)
@@ -35,19 +35,19 @@ acm | [ACM-Code](https://github.com/RunAtWorld/ACM-Code)
 
 #### 1.5 数据库
 
- 类别 | - 
+ 类别 | 列1 
 --- | --- 
 mysql | [Mysql](./开发/mysql/)
 
 #### 1.6 前端
 
- 类别 | - 
+ 类别 | 列1 
 --- | --- 
 教程 | [前端教程](https://github.com/hbulpf/Web)
 vue | [vue-demo](https://github.com/RunAtWorld/vue-demo) 
 
 #### 1.7 其他
- 类别 | -  | -  | - 
+ 类别 | 列1 | 列2 | 列3 
 --- | --- | --- | --- 
 IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep)| [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot) | 
 Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
@@ -55,7 +55,7 @@ Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 # 2. Dev/Ops
 ### 2.1 命令与应用
 
-OS | - | - |  - | - |  -
+OS | 列1 | 列2 | 列3 | 列4 | 列5 
 --- | --- | --- | --- | --- | --- 
 Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps) | [shell](https://github.com/RunAtWorld/shell) | [the-art-of-command-line](https://github.com/RunAtWorld/the-art-of-command-line)
 Windows | [Windows 常用命令](./开发/winDos.md)
@@ -73,7 +73,7 @@ Windows | [Windows 常用命令](./开发/winDos.md)
 
 + 开发人员工具
 
-用途 | - | - | -
+用途 | 列1 | 列2 | 列3 
  --- | --- | --- | ---
 接口设计 |  [swagger](./工具/swagger/README.md)
 开发工具 | [IdeaJ](工具/IDEAJ/Idea.md)
@@ -82,7 +82,7 @@ Windows | [Windows 常用命令](./开发/winDos.md)
 
 ### 2.3 效率提升利器
 
-类别 | - | - | - | - | -
+类别 | 列1 | 列2 | 列3 | 列4 | 列5
  --- | --- | --- | ---| ---| ---
 工具类 | [站长工具](https://tool.lu/) | [前端开发网站导航](https://nav.web-hub.cn/) | [MiKuTools](https://tool.imiku.me/) | [atoolbox](http://www.atoolbox.net/) | [toolnb](https://www.toolnb.com/)
 教程类 | [菜鸟教程](https://www.runoob.com/)
@@ -91,7 +91,7 @@ Windows | [Windows 常用命令](./开发/winDos.md)
 
 ### 2.4 面试相关
 
-类别 | - | - | -
+类别 | 列1 | 列2 | 列3
 --- | --- | --- | ---
 笔试 | [写简历](https://github.com/RunAtWorld/resume-1)
 技术面 | [秋招笔记](https://github.com/RunAtWorld/Interview-Notebook) | [`sre/ops` 技术面试](./面试/sre.md)
@@ -100,7 +100,7 @@ hr | [hr面试](./面试/hr.md)
 # 3. 云计算
 1. Docker与Kubernetes
 
-类别 | -   | -   | - | -
+类别 | 列1 | 列2 | 列3 | 列4 
 ---  | --- | --- | --- | ---
 Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab) | [docker-pytorch](https://github.com/RunAtWorld/docker-pytorch)
 K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker) | [K8S examples](https://github.com/RunAtWorld/examples) | [《Kubernetes权威指南 第2版》源代码](https://github.com/RunAtWorld/k8s_2th_guide_code)
@@ -108,7 +108,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 # 4. 大数据
 
-类别 | - | - | -
+类别 | 列1 | 列2 | 列3 
 --- | --- | --- | ---
 大数据 | [大数据架构师应掌握的技能](https://github.com/RunAtWorld/big_data_architect_skills) | 
 
@@ -131,7 +131,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 ## 5.1 Tensorflow
 
-类别 | - | - | -
+类别 | 列1 | 列2 | 列3 
 --- | --- | --- | ---
 教程 | [Tensorflow教程](https://github.com/RunAtWorld/Tensorflow-Tutorial) | [tensorflow](https://github.com/RunAtWorld/tensorflow)
 项目 | [docker-tensorflow-inception](https://github.com/RunAtWorld/bitnami-docker-tensorflow-inception)
@@ -140,7 +140,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 # 6. 其他
 ## 6.1. 常用软件资源
 
-镜像源           | -
+镜像源           | 列1
 ------------    | -------------
 [网易开源镜像站](http://mirrors.163.com)  | 
 [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn) | 
@@ -166,7 +166,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 1. [问问题的礼仪](其他/How-To-Ask-Questions-The-Smart-Way.md)
 2. 生活
 
-类别 | - | - | -
+类别 | 列1 | 列2 | 列3 
 --- | --- | --- | ---
 出行 | [12306](https://github.com/RunAtWorld/12306)
 买卖 | [房价预测](https://github.com/RunAtWorld/HousePricing) | [如何买房](https://github.com/houshanren/hangzhou_house_knowledge)
