@@ -61,6 +61,15 @@ windows 进入 `C:\Windows\System32\drivers\etc` 目录， 在 `hosts` 最后加
 # GitHub End
 ```
 
+## GitLab 网页加载慢问题
+
+```
+# GitLab Start
+35.231.145.151 gitlab.com
+# GitLab End
+```
+
+
 ##  常见的 基于 git 的网站
 
 网站 | 国家 |
