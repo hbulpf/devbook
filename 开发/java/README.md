@@ -14,3 +14,6 @@ https://www.cnblogs.com/zengweiming/p/8946195.html
 JVM监控工具
 
 https://www.jianshu.com/p/ccb7edb71c79
+
+聊聊线程池，这一顿操作说懵阿里面试官...
+https://www.jianshu.com/p/58f6507fb75a
