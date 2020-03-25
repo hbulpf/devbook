@@ -173,6 +173,15 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 3. [程序员职业病](./其他/程序员职业病.md)
 
----------------------------
-[`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
+
+
+----------------------------------------
+
+**项目规范**
+
+本文使用 [`Markdown`](https://www.markdownguide.org/basic-syntax) 编写, 排版符合[`中文技术文档写作规范`](https://github.com/hbulpf/document-style-guide)。Find Me On [Github](https://github.com/hbulpf/LinuxFun) , [Gitee](https://gitee.com/sifangcloud/devbook)
+
+**友情贡献**
+
+@[**RunAtWorld**](http://www.github.com/RunAtWorld)  &nbsp;  @[**persuez**](https://github.com/persuez)
 
