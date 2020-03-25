@@ -1,5 +1,10 @@
 开发人员手册
 
+[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-DC3D24.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+[![GitHub stars](https://img.shields.io/github/stars/hbulpf/devbook.svg?label=Stars)](https://github.com/hbulpf/devbook)
+[![GitHub watchers](https://img.shields.io/github/watchers/hbulpf/devbook.svg?label=Watchers)](https://github.com/hbulpf/devbook/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/hbulpf/devbook.svg?label=Forks)](https://github.com/hbulpf/devbook/fork)
+
 # 1. 基础练习
 #### 1.1 Java 
 
