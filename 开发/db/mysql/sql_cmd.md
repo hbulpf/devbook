@@ -408,7 +408,33 @@ ifnull(oracle, nvl) #如果 oracle 字段为 null , 设置为 nvl
 - 日期计算
     - 减 `DATE_SUB(CURDATE(),INTERVAL 3 MONTH)`
     - 加 `DATE_ADD(CURDATE(),INTERVAL 3 MONTH)`
-
+- 计算两日期时间之间相差的天数,秒数,分钟数,周数,小时数
+    - `TIMESTAMPDIFF(unit,datetime_expr1,datetime_expr2)`
+        ```
+        FRAC_SECOND   表示间隔是毫秒
+        SECOND   秒
+        MINUTE   分钟
+        HOUR   小时
+        DAY   天
+        WEEK   星期
+        MONTH   月
+        QUARTER   季度
+        YEAR   年
+        ```
+    - 计算两日期之间相差多少周 
+        ```sql
+        select timestampdiff(WEEK,'2011-09-30','2015-05-04');
+        ```
+    - 计算两日期之间相差多少天 
+        ```sql
+        select timestampdiff(day,'2011-09-30','2015-05-04');`
+        ```
+    - 计算两日期/时间之间相差的分钟数　
+        ```sql
+        select timestampdiff(MINUTE,'2011-09-30','2015-05-04');
+        -- 或
+        SELECT　SEC_TO_TIME(UNIX_TIMESTAMP(end_time) -　UNIX_TIMESTAMP(start_time));
+        ```
 
 ## 细节专栏
 ### DISTINCT
