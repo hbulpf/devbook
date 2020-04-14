@@ -223,7 +223,7 @@ Lucene支持转义属于查询语法的特殊字符。
 
 ![](imgs/filter_from_context.png)
 
-![kibana-filters](imgs/kibana-filters.png)
+![kibana-filters](imgs/kibana-filters.jpg)
 
 绿色filter for value  红色filter out value。
 
