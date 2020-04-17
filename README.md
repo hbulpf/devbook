@@ -178,11 +178,6 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 3. [程序员职业病](./其他/程序员职业病.md)
 
-
-##### 关注公众号 获取更多优质文章 ~
-
-![sfyh_qrcode](sfyh_code.png)
-
 ----------------------------------------
 
 **项目规范**
@@ -192,4 +187,9 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 **友情贡献**
 
 @[**RunAtWorld**](http://www.github.com/RunAtWorld)  &nbsp;  @[**persuez**](https://github.com/persuez)
+
+
+#### 关注公众号 『四方云和』 获取更多优质文章 ~
+
+![sfyh_qrcode](sfyh_qrcode.jpg)
 
