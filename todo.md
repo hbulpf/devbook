@@ -15,3 +15,16 @@
 9. 网页实现一个简单的音乐播放器 : https://blog.csdn.net/qq_44210563/article/details/102826406?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
     - http://music.xiongsihao.com/
 10. Spring Boot 最最最常用的注解梳理 : https://mp.weixin.qq.com/s/6wAD7fN1hUjQR-0twvvaTw
+
+项目集合
+
+1. 一套BS架构的开源知识管理系统、知识库系统 https://gitee.com/macplus/WCP
+2. 文章论文下载 . http://www.sci-hub.ac.cn/
+3. 20款开源搜索引擎介绍与比较 https://www.cnblogs.com/cuihongyu3503319/p/9273917.html
+4. https://blog.csdn.net/u013850277/article/details/90647636
+https://www.jianshu.com/p/44cc3bdd80e2
+
+5. 爬虫 https://github.com/vector4wang/spring-boot-quick
+
+工具
+1. [10款搜索引擎](https://www.jianshu.com/p/51cc722724c5)
