@@ -1,6 +1,6 @@
-gitbook 生成 pdf 
+# gitbook 生成 pdf 
 
-# 输出PDF
+## 方式1
 
 输出为PDF文件，需要先安装`gitbook pdf`
 
@@ -27,6 +27,32 @@ $ gitbook pdf .
 ```
 
 然后，你就会发现，你的目录中多了一个名为`book.pdf`的文件。
+
+## 方式2
+
+构建生成html
+
+```
+$ gitbook build . ../_book
+```
+
+生成pdf, epub, mobi文件，依赖[calibre](https://calibre-ebook.com/)里的ebook-convert
+```
+$ gitbook pdf . ./gitbook-boilerplate.pdf
+$ gitbook epub . ./gitbook-boilerplate.epub
+$ gitbook mobi . ./gitbook-boilerplate.mobi
+```
+
+生成一个markdown文件，需要node环境
+```
+$ npm run build:markdown
+```
+
+生成docx格式，依赖生成的统一markdown文件，依赖[pandoc](https://pandoc.org/)环境
+
+```
+$ pandoc gitbook-boilerplate.md -o gitbook-boilerplate.docx
+```
 
 # 参考
 1. [输出PDF](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/output/pdfandebook.html)
