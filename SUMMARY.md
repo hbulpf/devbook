@@ -41,6 +41,7 @@
 - [gitbook](工具/gitbook/README.md)
     - [安装 GitBook](工具/gitbook/gitbook.md)
     - [输出PDF](工具/gitbook/gitbook_pdf.md)
+- [Hexo](工具/hexo/hexo开发.md)
 - [markdown](工具/markdown/README.md)
     - [Markdown 简明语法手册](工具/markdown/markdown.md)
     - [vscode_markdown.md](工具/markdown/vscode_markdown.md)
