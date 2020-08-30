@@ -6,7 +6,7 @@ revert 可以取消指定的某次提交内容。
 
 merge commit 和普通 commit 的不同之处在于 merge commit 包含两个 parent commit，代表该 merge commit 是从哪两个 commit 合并过来的。
 
-![img](imgs/1373650-20190320105555403-936179638.png)
+![img](imgs/gitrevert.jpg)
 在上图所示的红框中有一个 merge commit，使用 `git show` 命令可以查看 commit 的详细信息
 
 ```
