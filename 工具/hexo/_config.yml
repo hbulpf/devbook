@@ -1,0 +1,210 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Fun python
+subtitle: Funny Samples with python
+description: Funny Samples with python
+author: RunAtWorld
+language:
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: /
+root: "/"
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+about_dir: about
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: ils
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type:
+# theme basic info
+# 主题基本信息，无需改动。
+theme_info:
+  name: ILS
+  version: 1.1.2
+  author: XPoet
+  repository: https://github.com/XPoet/hexo-theme-ils
+
+# favicon
+# 网站图标，请在 "/source/images/" 目录，换成自己的即可。
+favicon: images/favicon.png
+
+# avatar
+# 头像图片，请在 "/source/images/" 目录，换成自己的即可。
+avatar: images/avatar.png
+
+# navigation menu
+# 导航菜单，如需新增导航，请按下面格式填写，同时需要添加对应的 Hexo 页面。
+# 新增页面，请参考往下的教程："Add page 添加页面"。
+menu:
+  Home: /
+  Archives: /archives
+  # About: /about
+  # Links: /links
+  # ...
+
+# RSS
+# RSS 订阅，如需启用，请先安装 Hexo 插件：hexo-generator-feed。
+rss:
+  enable: true
+
+# comment plugin
+# 评论插件，主题内置了 Valine 和 Gitalk，只能使用其中一款，如果 enable 都设为了 true，将使用 Valine。
+comments:
+  # Valine https://github.com/xCss/Valine
+  # 如何使用 Valine 请参考：https://github.com/xCss/Valine
+  valine:
+    enable: false
+    appid:   # leancloud appid
+    appkey:  # leancloud appkey
+    meta: ['nick', 'mail', 'link']
+    placeholder: 😜尽情吐槽吧~
+
+  # Gitalk https://github.com/gitalk/gitalk
+  # 如何使用 Gitalk 请参考：https://github.com/gitalk/gitalk
+  gitalk:
+    enable: false
+    github_id:      # GitHub repo owner
+    repository:     # Repository name to store issues
+    client_id:      # GitHub Application Client ID
+    client_secret:  # GitHub Application Client Secret
+
+# website count
+# 网站计数
+website_count:
+  # busuanzi http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false
+    site_uv: false
+    site_pv: false
+    page_pv: false
+
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+# 本地搜索，如需启用，请先安装 Hexo 插件：hexo-generator-searchdb。
+local_search:
+  enable: true
+
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  # 输入关键字后的触发搜索，可选 自动 auto 或 手动 manual。
+  # auto 每输入或删除一个字符后，自动触发搜索。
+  # manual 每输入或删除一个字符后，需要按回车键触发搜索。
+  trigger: auto  # values: auto | manual
+
+  # Unescape html strings to the readable one.
+  # 转义 HTML 字符串为可读字符串。
+  unescape: false
+
+  # Preload the search data when the page loads.
+  # 在页面加载时预加载搜索数据
+  preload: true
+
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+# Code Copy
+# 代码复制，复制风格可选 default | flat | mac。
+code_copy:
+  enable: true
+  style: flat  # values: default | flat | mac
+
+# sidebar tools
+# 侧边栏工具，位置可选 left | right。
+side_tools:
+  enable: true
+  position: right  # values: left | right
+
+# back to top
+# 回到顶部，位置可选 left | right。
+back2top:
+  enable: true
+  position: right  # values: left | right
+
+# Table of Contents in the Sidebar
+# 文章目录结构
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  # 给文章目录自动加上序号。
+  number: true
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  # 是否展开所有目录
+  expand_all: true
+
+# magic 
+# magic 为 v1.1.0 增加的新特性，启用后，主题样式将以简约的卡片形式显示。
+magic:
+  enable: true  # 是否开启 magic 风格
+  scale: false  # 是否开启缩放效果
+  shadow: true  # 是否开启阴影效果
+  sidebar:
+    enable: false # 是否显示侧边栏
+    fixed: true  # 侧边栏是否固定
+    position: right  # 侧边栏位置 values: left | right
+
+# 文章字数统计、阅读时长
+# 需要安装 https://github.com/willin/hexo-wordcount
+# npm i --save hexo-wordcount
+post_wordcount:
+  wordcount: true  # 字数统计
+  min2read: true   # 阅读时长
