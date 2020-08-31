@@ -121,3 +121,4 @@ npm i --save hexo-wordcount
 
 # 参考
 1. [hexo官网](https://hexo.io/)
+2. 强烈推荐「Easy Hexo 团队」撰写的 Hexo 教程！ [链接](https://easyhexo.com/)
