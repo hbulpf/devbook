@@ -1,0 +1,128 @@
+# 主题基本信息
+# theme basic info
+theme_info:
+  name: ILS
+  version: 1.1.2
+  author: XPoet
+  repository: https://github.com/XPoet/hexo-theme-ils
+
+# 网站图标
+# favicon
+favicon: images/favicon.png
+
+# 头像
+# avatar
+avatar: images/avatar.png
+
+# 主题色
+# theme color
+theme_color: "#03aaaa"
+
+# 导航菜单
+# navigation menu
+menu:
+  Home: /
+  Archives: /archives
+  Links: /links
+  About: /about
+  # Category: /categories
+  # ...
+
+# RSS 订阅
+# RSS
+rss:
+  enable: true
+
+# 评论插件
+# comment plugin
+comments:
+  # Valine https://github.com/xCss/Valine
+  valine:
+    enable: true
+    appid: 56Ush0t17ohroP4Spd65kUow-gzGzoHsz
+    appkey: vt77XLQzHNoTAoUetUU3Xm29
+    # meta: ['nick', 'mail']
+    meta: ['nick', 'mail', 'link']
+    placeholder: 😜尽情吐槽吧~
+
+  # Gitalk https://github.com/gitalk/gitalk
+  gitalk:
+    enable: false
+    github_id: XPoet
+    repository: gitalk-comments-data
+    client_id: e7f9c899d3766b200da8
+    client_secret: 77fa7aa00f20f512ac14e6599f8b433e9fe2f4d5
+
+# 网站计数
+# website count
+website_count:
+  # busuanzi http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: true
+    site_uv: false
+    site_pv: true
+    page_pv: true
+
+# 本地搜索
+# 依赖：hexo-generator-searchdb https://github.com/theme-next/hexo-generator-searchdb
+# Local Search
+# Dependencies: hexo-generator-searchdb https://github.com/theme-next/hexo-generator-searchdb
+local_search:
+  enable: true
+
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto  # values: auto | manual
+
+  # Unescape html strings to the readable one.
+  unescape: false
+
+  # Preload the search data when the page loads.
+  preload: true
+
+# 代码复制
+# Code Copy
+code_copy:
+  enable: true
+  style: flat  # values: default | flat | mac
+
+# 侧边栏工具
+# sidebar tools
+side_tools:
+  enable: true
+  position: right  # values: left | right
+
+# 回到顶部
+# back to top
+back2top:
+  enable: true
+  position: right  # values: left | right
+
+# 目录结构
+# Table of Contents in the Sidebar
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+
+# magic 风格
+# magic style
+magic:
+  enable: true
+  scale: false
+  shadow: true
+  sidebar:
+    enable: false
+    fixed: true
+    position: right  # values: left | right
+
+# 文章字数统计、阅读时长
+# 需要安装 https://github.com/willin/hexo-wordcount
+# npm i --save hexo-wordcount
+post_wordcount:
+  wordcount: true  # 字数统计
+  min2read: true   # 阅读时长
