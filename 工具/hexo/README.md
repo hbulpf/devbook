@@ -119,6 +119,10 @@ npm install hexo-generator-searchdb
 npm i --save hexo-wordcount
 ```
 
+## 其他
+1. [Hexo博客使用valine评论系统无效果及终极解决方案](https://www.jianshu.com/p/f4658df66a15)
+
+
 # 参考
 1. [hexo官网](https://hexo.io/)
 2. 强烈推荐「Easy Hexo 团队」撰写的 Hexo 教程！ [链接](https://easyhexo.com/)
