@@ -78,13 +78,14 @@ deploy:
 
 ```javascript
 npm install hexo-deployer-git --save
+npm install hexo-server --save
 ```
 
 执行下面两个命令，就可以把项目部署到 `github` 上。
 
 ```undefined
 hexo clean
-hexo deploy
+hexo d -g
 ```
 
 更多参考 [hexo官方部署](https://hexo.io/zh-cn/docs/one-command-deployment)
