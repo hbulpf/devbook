@@ -21,7 +21,11 @@ IDEA 好用插件
       + Mybatis Generator 不需要图形界面，可以作为 maven 插件嵌入。没有 Mybatis Builder 好用
     * Java 与 XML 调回跳转；Mapper 方法自动生成 XML
       + [MyBatisX](https://baomidou.com/guide/mybatisx-idea-plugin.html) 插件[地址](https://plugins.jetbrains.com/plugin/10119-mybatisx/)
-      + [Free MyBatis plugin](https://plugins.jetbrains.com/plugin/8321-free-mybatis-plugin/):在xml文件和mapper之间跳转
+      + [Free MyBatis plugin](https://plugins.jetbrains.com/plugin/8321-free-mybatis-plugin/):
+        - 生成mapper xml文件
+        - 快速从代码跳转到mapper及从mapper返回代码
+        - mybatis自动补全及语法错误提示
+        - 集成mybatis generator gui界面
 5. Yaml文件
    * swagger, yaml 文件分级显示, [插件地址](https://plugins.jetbrains.com/plugin/index?xmlId=org.zalando.intellij.swagger)
    * YAML/Ansible support, YAML规范提示工具, [插件地址](https://plugins.jetbrains.com/plugin/7792-yaml-ansible-support)
