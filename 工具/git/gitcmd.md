@@ -379,6 +379,28 @@ git push origin empty:master --force
 git commit --amend
 ```
 
+### 5. 清空所有commit记录
+
+```
+#1.Checkout
+git checkout --orphan latest_branch
+
+#2. Add all the files
+git add -A
+
+#3. Commit the changes
+git commit -am "commit message"
+
+#4. Delete the branch
+git branch -D master
+
+#5.Rename the current branch to master
+git branch -m master
+
+#6.Finally, force update your repository
+git push -f origin master
+```
+
 ### gitignore 说明
 ```
 #               表示此为注释,将被Git忽略
@@ -457,6 +479,7 @@ git push -u origin master
 ```
  url = git@github.com:Name/project.git
 ```
+
 
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
